@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="itesm.mx.a01191470_tarea_registrousuario.Perfil"
+    android:background="#fff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_message"
+            android:id="@+id/welcomeTV"
+            android:layout_gravity="right"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exitBT"
+            android:id="@+id/backBT"
+            android:layout_gravity="right"
+            android:textSize="25dp"
+            android:padding="10dp"
+            android:background="#ccc"
+            android:layout_margin="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ProfileTV"
+            android:id="@+id/perfilTV"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NombreCompleto"
+            android:id="@+id/fullNameTV"
+            android:textSize="20dp"
+            android:layout_margin="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:id="@+id/emailTV"
+            android:textSize="20dp"
+            android:layout_margin="15dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profileIV"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="30dp"
+            android:src="@mipmap/ic_launcher" />
+    </LinearLayout>
+</RelativeLayout>

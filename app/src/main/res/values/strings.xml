@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">A01191470_TAREA_RegistroUsuario</string>
+    <string name="welcome_string">Mi Aplicacíon</string>
+    <string name="registerBT">Registrarse</string>
+    <string name="loginBT">Iniciar Sesíon</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registro">registro</string>
+    
+    <!-- register-->
+    <string name="full_name_hint">nombre, apellido paterno y materno</string>
+    <string name="email_hint">correo electronico</string>
+    <string name="password_hint">contraseña</string>
+    <string name="confirmation_hint">confirmar contraseña</string>
+    <string name="title_activity_perfil">Perfil</string>
+    
+    <!-- perfil-->
+    <string name="welcome_message">Bienvenido</string>
+    <string name="exitBT">Salir</string>
+    <string name="ProfileTV">Perfil</string>
+    <string name="fullNameTV">Nombre Completo</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_lista_articulos">lista_articulos</string>
+
+    <!-- articulos-->
+    <string name="num_serie"># Serie:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="Ctd">Ctd:</string>
+    <string name="Precio">Precio:</string>
+</resources>

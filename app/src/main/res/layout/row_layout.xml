@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <ImageView
+        android:id="@+id/article_poster"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/precioLabel" />
+
+
+    <!-- lable num serie-->
+    <TextView
+        android:id="@+id/num_serieLabel"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:text="@string/num_serie"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/article_poster" />
+    <!-- tv num serie-->
+    <TextView
+        android:id="@+id/num_serieTV"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/num_serieLabel" />
+
+    <!-- label nombre-->
+    <TextView
+        android:id="@+id/nombreLabel"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:text="@string/nombre"
+        android:layout_below="@+id/num_serieLabel"
+        android:layout_toEndOf="@+id/article_poster" />
+
+    <!-- tv nombre-->
+
+    <TextView
+        android:id="@+id/nombreTV"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/num_serieLabel"
+        android:layout_toEndOf="@+id/num_serieLabel" />
+
+    <!-- label Ctd-->
+    <TextView
+        android:id="@+id/ctdLabel"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:text="Ctd:"
+        android:layout_below="@+id/nombreLabel"
+        android:layout_toEndOf="@+id/article_poster" />
+
+    <!-- tv Ctd:-->
+    <TextView
+        android:id="@+id/ctdTV"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+
+        android:layout_below="@+id/nombreTV"
+        android:layout_toEndOf="@+id/nombreLabel" />
+    <!-- label precio-->
+    <TextView
+        android:id="@+id/precioLabel"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:text="Precio:"
+        android:layout_below="@+id/ctdLabel"
+        android:layout_toEndOf="@+id/article_poster" />
+
+    <TextView
+        android:id="@+id/precioTV"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/ctdLabel"
+        android:layout_toEndOf="@+id/ctdLabel" />
+
+
+</RelativeLayout>
